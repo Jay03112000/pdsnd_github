@@ -22,6 +22,11 @@ The goal is to simulate how professional developers manage code versions, docume
 - **.gitignore** – file to exclude data files and temporary files  
 - **README.md** – documentation describing the project, files, and workflow
 
+## How to Run the Project
+- To run the project, open a terminal and execute 
+bash
+python bikeshare.py
+
 ### Credits
 Project template provided by [Udacity](https://www.udacity.com/)  
 Dataset and starter files from [udacity/pdsnd_github](https://github.com/udacity/pdsnd_github)  
