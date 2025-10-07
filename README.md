@@ -7,6 +7,7 @@ Bikeshare Data Exploration with Git and Version Control
 ### Description
 This project is part of Udacity’s *Programming for Data Science with Python Nanodegree*.  
 It demonstrates how to use **Git** and **GitHub** for version control in a realistic workflow.  
+bikeshare data for multiple US cities.
 In this project, I practiced:
 - Forking and cloning a repository  
 - Creating branches (`documentation` and `refactoring`)  
