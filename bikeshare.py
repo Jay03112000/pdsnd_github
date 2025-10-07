@@ -135,7 +135,7 @@ def station_stats(df):
 
 def trip_duration_stats(df):
     """Displays statistics on the total and average trip duration."""
-    print('\nCalculating Trip Duration...\n')
+    print('\nCalculating the Exact Trip Duration...\n')
     start_time = time.time()
 
     if df.empty:
@@ -227,6 +227,12 @@ def show_raw_data(df):
 
 
 def main():
+    print("Welcome to the Bikeshare Data Analysis Tool !")
+    print_instruction()
+
+    def print_instruction():
+        print("You can explore bikeshare data from here onwards")
+
     while True:
         city, month, day = get_filters()
         df = load_data(city, month, day)
